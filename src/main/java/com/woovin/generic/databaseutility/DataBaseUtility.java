@@ -26,7 +26,9 @@ public class DataBaseUtility {
 		}catch (Exception e) {}
 		}
 	public void closeDbConnection() throws SQLException{
-		conn.close();
+		if (conn != null) {
+	        conn.close();
+	        conn = null;}
 	}
 	public ResultSet executeConSelectQuery(String query) throws SQLException {
 		ResultSet resutSet=null;
