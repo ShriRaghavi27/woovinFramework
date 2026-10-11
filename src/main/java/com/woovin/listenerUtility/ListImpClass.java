@@ -51,6 +51,8 @@ public class ListImpClass implements ITestListener, ISuiteListener {
 	    UtilityClassObject.getTest().log(
 	            Status.INFO,
 	            result.getMethod().getMethodName() + " STARTED");
+	    System.out.println("LISTENER STARTED: "
+	            + result.getMethod().getMethodName());
 		
 	}
 	@Override
