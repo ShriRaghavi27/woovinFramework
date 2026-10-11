@@ -26,7 +26,7 @@ public class DataBaseUtility {
 		}catch (Exception e) {}
 		}
 	public void closeDbConnection() throws SQLException{
-		if (conn != null) {
+		if (conn != null) {//check connection
 	        conn.close();
 	        conn = null;}
 	}
