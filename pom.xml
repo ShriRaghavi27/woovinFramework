@@ -54,12 +54,6 @@
 			<artifactId>mysql-connector-j</artifactId>
 			<version>9.7.0</version>
 		</dependency>
-		<!-- Source: https://mvnrepository.com/artifact/commons-io/commons-io -->
-		<dependency>
-			<groupId>commons-io</groupId>
-			<artifactId>commons-io</artifactId>
-			<version>2.22.0</version>
-		</dependency>
 		<!-- Source:
 		https://mvnrepository.com/artifact/com.aventstack/extentreports -->
 		<dependency>
