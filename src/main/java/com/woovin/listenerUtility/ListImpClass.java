@@ -40,19 +40,11 @@ public class ListImpClass implements ITestListener, ISuiteListener {
 	}
 	@Override
 	public void onTestStart(ITestResult result) {
-		test = report.createTest(
-	            result.getMethod().getMethodName());
-
-	    UtilityClassObject.setTest(test);
-
-	    System.out.println("ExtentTest initialized: "
-	            + (UtilityClassObject.getTest() != null));
-
-	    UtilityClassObject.getTest().log(
-	            Status.INFO,
-	            result.getMethod().getMethodName() + " STARTED");
-	    System.out.println("LISTENER STARTED: "
-	            + result.getMethod().getMethodName());
+		test = report.createTest(result.getMethod().getMethodName());
+		UtilityClassObject.setTest(test);
+		System.out.println("ExtentTest initialized: " + (UtilityClassObject.getTest() != null));
+		UtilityClassObject.getTest().log(Status.INFO,result.getMethod().getMethodName() + " STARTED");
+	    System.out.println("LISTENER STARTED: "+ result.getMethod().getMethodName());
 		
 	}
 	@Override
