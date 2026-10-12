@@ -6,9 +6,9 @@
 </listeners>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.macystest.SearchNikeTest"/>
-      <class name="com.macystest.SneakersTest"/>
-      <class name="com.macystest.ApparelTest"/>
+      <class name="com.woovintest.SearchNikeTest"/>
+      <class name="com.woovintest.SneakersTest"/>
+      <class name="com.woovintest.ApparelTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
