@@ -89,7 +89,7 @@ public class SneakersTest extends BaseClass{
 		//wp.verifyWishlistProduct(Product);
 		Assert.assertTrue(wp.verifyWishlistProduct(Product),"Product is not added to Wishlist");
 		UtilityClassObject.getTest().log(Status.PASS, "Product added to Wishlist successfully");
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		
 		}
 }
